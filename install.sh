@@ -8,7 +8,7 @@ else
     OS="linux"
 fi
 
-URL="https://raw.githubusercontent.com/OrlovEvgeny/clichouse-gen/master/build/$OS/clickhouse-gen"
+URL="https://raw.githubusercontent.com/OrlovEvgeny/clickhouse-gen/master/build/$OS/clickhouse-gen"
 
 if [ -n "`which curl`" ]; then
     download_cmd="curl -L $URL --output $TARGET_DIR"
