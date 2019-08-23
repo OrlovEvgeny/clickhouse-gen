@@ -13,13 +13,13 @@ URL="https://raw.githubusercontent.com/OrlovEvgeny/clickhouse-gen/master/build/$
 if [ -n "`which curl`" ]; then
     download_cmd="curl -L $URL --output $TARGET_DIR"
 else
-    die "Failed to download clichouse-gen: curl not found, plz install curl"
+    die "Failed to download clickhouse-gen: curl not found, plz install curl"
 fi
 
-/bin/echo "Fetching clichouse-gen from $URL: "
-$download_cmd || die "Error when downloading clichouse-gen from $URL"
-/bin/echo "Install clichouse-gen: done"
+/bin/echo "Fetching clickhouse-gen from $URL: "
+$download_cmd || die "Error when downloading clickhouse-gen from $URL"
+/bin/echo "Install clickhouse-gen: done"
 
-$PERM || die "Error permission execut clichouse-gen from $TARGET_DIR"
-/bin/echo "Set permission execute clichouse-gen: done"
+$PERM || die "Error permission execut clickhouse-gen from $TARGET_DIR"
+/bin/echo "Set permission execute clickhouse-gen: done"
 /bin/echo "Finished"
