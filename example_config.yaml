@@ -1,0 +1,6 @@
+clickhouse:
+  host: "127.0.0.1"
+  port: 9000
+  basename: "metrika"
+  username: "super_user"
+  password: "super_pa$$word123"

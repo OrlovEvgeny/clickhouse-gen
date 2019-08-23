@@ -1,0 +1,6 @@
+.idea
+.idea/
+.bashrc
+tmp/*
+.DS_Store
+*.log
