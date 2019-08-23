@@ -1,6 +1,6 @@
 PATH="$PATH:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"
-TARGET_DIR=/usr/local/bin/clichouse-gen
-PERM="chmod +x /usr/local/bin/clichouse-gen"
+TARGET_DIR=/usr/local/bin/clickhouse-gen
+PERM="chmod +x /usr/local/bin/clickhouse-gen"
 
 if [ "$(uname)" == "Darwin" ]; then
     OS="osx"
